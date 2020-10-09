@@ -34,7 +34,8 @@ export default class App extends Component {
           employees: data
          })
       })
-
+      
+      https://flaskbook-api.herokuapp.com/api/shop
     fetch('http://localhost:5000/api/shop')
       .then(response => response.json())
       .then(data => this.setState({
